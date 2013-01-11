@@ -1,0 +1,182 @@
+% Template for PLoS
+% Version 1.0 January 2009
+%
+% To compile to pdf, run:
+% latex plos.template
+% bibtex plos.template
+% latex plos.template
+% latex plos.template
+% dvipdf plos.template
+
+\documentclass[10pt]{article}
+
+% amsmath package, useful for mathematical formulas
+\usepackage{amsmath}
+% amssymb package, useful for mathematical symbols
+\usepackage{amssymb}
+
+% graphicx package, useful for including eps and pdf graphics
+% include graphics with the command \includegraphics
+\usepackage{graphicx}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+\usepackage{color} 
+
+% Use doublespacing - comment out for single spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+
+% Text layout
+\topmargin 0.0cm
+\oddsidemargin 0.5cm
+\evensidemargin 0.5cm
+\textwidth 16cm 
+\textheight 21cm
+
+% Bold the 'Figure #' in the caption and separate it with a period
+% Captions will be left justified
+\usepackage[labelfont=bf,labelsep=period,justification=raggedright]{caption}
+
+% Use the PLoS provided bibtex style
+\bibliographystyle{plos2009}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+% Leave date blank
+\date{}
+
+\pagestyle{myheadings}
+%% ** EDIT HERE **
+
+
+%% ** EDIT HERE **
+%% PLEASE INCLUDE ALL MACROS BELOW
+
+%% END MACROS SECTION
+
+\begin{document}
+
+% Title must be 150 characters or less
+\begin{flushleft}
+{\Large
+\textbf{Genome-wide transcriptome variation in chicken line 6 and 7 in response to Marek's disease infection}
+}
+% Insert Author names, affiliations and corresponding author email.
+\\
+Author1$^{1}$, 
+Author2$^{2}$, 
+Author3$^{3,\ast}$
+\\
+\bf{1} Author1 Dept/Program/Center, Institution Name, City, State, Country
+\\
+\bf{2} Author2 Dept/Program/Center, Institution Name, City, State, Country
+\\
+\bf{3} Author3 Dept/Program/Center, Institution Name, City, State, Country
+\\
+$\ast$ E-mail: Corresponding author@institute.edu
+\end{flushleft}
+
+% Please keep the abstract between 250 and 300 words
+\section*{Abstract}
+
+% Please keep the Author Summary between 150 and 200 words
+% Use first person. PLoS ONE authors please skip this step. 
+% Author Summary not valid for PLoS ONE submissions.   
+\section*{Author Summary}
+
+\section*{Introduction}
+
+% Results and Discussion can be combined.
+\section*{Results}
+
+\subsection*{Gene models summary}
+The number of genes and isoforms is shown in Table \ref{tab:gene_models}.
+
+\subsection*{Differential gene expression}
+The number of differentially expressed genes is shown in Table \ref{tab:dge}.
+
+\subsection*{Differential exon usage}
+
+\subsection*{Polymorphisms in differentially expressed genes/exons}
+
+\subsection*{Functional analysis}
+
+
+\section*{Discussion}
+
+% You may title this section "Methods" or "Models". 
+% "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
+% authors may use "Analysis" 
+\section*{Materials and Methods}
+
+% Do NOT remove this, even if you are not including acknowledgments
+\section*{Acknowledgments}
+
+
+%\section*{References}
+% The bibtex filename
+\bibliography{template}
+
+\section*{Figure Legends}
+%\begin{figure}[!ht]
+%\begin{center}
+%%\includegraphics[width=4in]{figure_name.2.eps}
+%\end{center}
+%\caption{
+%{\bf Bold the first sentence.}  Rest of figure 2  caption.  Caption 
+%should be left justified, as specified by the options to the caption 
+%package.
+%}
+%\label{Figure_label}
+%\end{figure}
+
+
+\section*{Tables}
+
+\begin{table}[!ht]
+\caption{
+\bf{Gene models summary}}
+\begin{tabular}{ccc}
+\hline
+Method & Gene & Isoform \\
+\hline
+Assembly & 25,290 & 54,044 \\
+Cufflinks & 21,345 & 36,218 \\
+Combined & 24,980 & 46,613 \\
+\hline
+\end{tabular}
+\begin{flushleft}Number of genes and isoforms from gene models
+built from \emph{de novo} assembly and Cufflinks.
+Combination of both methods decreased the number of genes
+and isoforms by merging fragmented transcripts to
+form more complete gene models.
+\end{flushleft}
+\label{tab:gene_models}
+\end{table}
+
+\begin{table}[!ht]
+\caption{
+\bf{Differentially expressed genes}}
+\begin{tabular}{cccccc}
+\hline
+Sample & Up-regulated & Down-regulated & Total & Refseq & Ensembl\\
+\hline
+Line 6 & 1,043 & 595 & 1,638 & 984 (60.0\%) & 1,252 (76.4\%) \\
+Line 7 & 1,976 & 1,124 & 3,100 & 2,114 (68.2\%) & 2,574 (83.0\%) \\
+Both & 681 & 236 & 917 & 664 (72.4) & 771 (84.1\%) \\
+\hline
+\end{tabular}
+\begin{flushleft}
+FDR $< 0.1$
+\end{flushleft}
+\label{tab:dge}
+\end{table}
+\end{document}
+
