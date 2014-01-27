@@ -111,6 +111,7 @@ Vaccination is effective in reducing incidence of tumor formation; however, curr
 prevent infection or horizontal spread of the virus.
 Improper use of vaccines is a key factor that drives evolution of highly virulent strains in vaccinated
 flocks.
+
 ***Need to add intro about breed selection against infection***
 
 Many studies have reported strong associations between MHC alleles and resistance and susceptibility of
@@ -120,7 +121,9 @@ However, chickens line 6 and 7 , even with common allele (B$^6$), exhibit differ
 MD.
 The major unanswered question is what genetic factors contribute to susceptibility and resistance of
 the disease.
+
 ***Need to add intro about gene and isoforms in immune system***
+
 In this study, we identified several annotated and unannotated genes and isoforms that are differentially
 expressed in response to MD infection. Pathway analysis and gene ontology suggest that these
 genes may have important roles in immune response to MD.
@@ -133,10 +136,10 @@ genes may have important roles in immune response to MD.
 A large number of reads mapped to intergenic and intronic regions (table 1, supp.)
 regions of Ensembl annotations (Galgal4.72)
 indicates that many genes and isoforms are not included in the annotations.
-Therefore, to extensively study gene and isoform expression, we employed \emph{de novo}
-transcriptome assembly as well as genome-based assembly to build custom gene annotations (see methods).
-The number of genes and isoforms is shown in Table \ref{tab:gene_models}.
-Genes were identified by aligning against all vertebrate transcripts in GenBank database.
+To extensively study gene and isoform expression, we employed \emph{de novo}
+transcriptome assembly and a reference-guided assembly to build custom gene annotations (see methods).
+The number of genes and isoforms is summarized in Table \ref{tab:gene_models}.
+Genes were identified by aligning against non-redundant protein database from NCBI.
 We found several genes that not annotated in either RefSeq or Ensembl, including chicken specific genes
 as well as genes found in other organisms (Table \ref{}).
 
@@ -158,6 +161,7 @@ In contrast, TAF1D and LOC424145 were up-regulated in line 6 but down-regulated 
 LYG2, for instance, was up-regulated by 2.57 folds in line 7 but down-regulated by 1.7 folds in line 6.
 This gene is involved in a defense against bacteria.
 
+\subsection*{Gene network analysis}
 Pathway analysis shows that genes in line 7 are significantly enriched (p $< 0.05$) in pathways involved in
 immune system such as Toll-like receptor signaling, intestinal immune network for IgA production,
 and Phagosome pathway, which are not significantly enriched in line 6 (fig. \ref{line67_kegg}).
@@ -191,21 +195,20 @@ the adaptive immune response.
 % authors may use "Analysis" 
 \section*{Materials and Methods}
 \subsection{Gene Models Construction}
-With the lack of high quality gene models for chickens. We employed two different approaches to
+Due to lack of complete gene models for chickens, we employed two methods to
 construct gene models from RNA-Seq reads.
 First, short reads were quality trimmed with conditri/2.1\cite{} \texttt{(-cutfirst 10)}
 and assembled using Velvet/1.21\cite{} and Oases/0.2.06\cite{} to obtain long transcripts.
 Assembly was done with k value ranges from 21 to 31 for both local and global assembly
 (described in Gimme paper\cite{}).
 Poly-A tails were trimmed and low complexity transcripts were removed by Seqclean\cite{}.
-All transcripts were then aligned to chicken reference genome (galGal4, with short
-contigs removed) with BLAT\cite{} \texttt{(-t=dna -q=dna -noHead -out=psl -mask=lower -extendThroughN)}.
-Filtered alignments from BLAT were then used to produced gene models using Gimme.
+All transcripts were then aligned to chicken reference genome (galGal4, with unplaced and random 
+chromosomes removed) with BLAT\cite{} \texttt{(-t=dna -q=dna -noHead -out=psl -mask=lower -extendThroughN)}.
+Filtered alignments from BLAT were then used to produced gene models using Gimme\cite{}.
 
-Second, short reads were aligned to reference genome using Tophat/2.0.5\cite{} and mapping output were used to
-build gene models by Cufflinks2\cite{} with default parameters.
-Both set of gene models were combined using Gimme to build more comprehensive models
-to be used in this study.
+Second, short reads were aligned to reference genome using Tophat/2.0.5\cite{} and 
+gene models were built by Cufflinks2\cite{} with default parameters.
+A combination of gene models from both set of gene models were used in this study.
 
 \subsection{Differential Gene Expression and Gene Ontology}
 
