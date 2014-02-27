@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: DGE_paper.aux
+The style file: plos2009.bst
+Database file #1: ref.bib
+Warning--I didn't find a database entry for ""
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 4 entries,
+            2441 wiz_defined-function locations,
+            567 strings with 5321 characters,
+and the built_in function-call counts, 3743 in all, are:
+= -- 343
+> -- 72
+< -- 0
++ -- 36
+- -- 18
+* -- 324
+:= -- 453
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 358
+empty$ -- 378
+format.name$ -- 22
+if$ -- 822
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 45
+newline$ -- 35
+num.names$ -- 4
+pop$ -- 47
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 34
+stack$ -- 0
+substring$ -- 540
+swap$ -- 90
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 31
+width$ -- 5
+write$ -- 57
+(There was 1 warning)

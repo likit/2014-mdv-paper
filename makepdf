@@ -1,0 +1,4 @@
+pdflatex DGE_paper
+bibtex DGE_paper
+pdflatex DGE_paper
+pdflatex DGE_paper

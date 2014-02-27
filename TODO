@@ -1,0 +1,215 @@
+fix table 2.
+add number of reads mapped outside gene models
+
+line 6u paired
+genic regions
+54613198 + 0 mapped (100.00%:-nan%)
+54613198 + 0 paired in sequencing
+27594776 + 0 read1
+27018422 + 0 read2
+35456256 + 0 properly paired (64.92%:-nan%)
+50301163 + 0 with itself and mate mapped
+4312035 + 0 singletons (7.90%:-nan%)
+100455 + 0 with mate mapped to a different chr
+70676 + 0 with mate mapped to a different chr (mapQ>=5)
+
+exonic
+51585543 + 0 mapped (100.00%:-nan%)
+51585543 + 0 paired in sequencing
+26064284 + 0 read1
+25521259 + 0 read2
+33569809 + 0 properly paired (65.08%:-nan%)
+47579894 + 0 with itself and mate mapped
+4005649 + 0 singletons (7.77%:-nan%)
+72152 + 0 with mate mapped to a different chr
+62660 + 0 with mate mapped to a different chr (mapQ>=5)
+
+line 7u paired
+genic
+47563494 + 0 mapped (100.00%:-nan%)
+47563494 + 0 paired in sequencing
+23563968 + 0 read1
+23999526 + 0 read2
+29760613 + 0 properly paired (62.57%:-nan%)
+43302240 + 0 with itself and mate mapped
+4261254 + 0 singletons (8.96%:-nan%)
+139497 + 0 with mate mapped to a different chr
+110213 + 0 with mate mapped to a different chr (mapQ>=5)
+
+exonic
+45209218 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+45209218 + 0 mapped (100.00%:-nan%)
+45209218 + 0 paired in sequencing
+22398085 + 0 read1
+22811133 + 0 read2
+28349753 + 0 properly paired (62.71%:-nan%)
+41213189 + 0 with itself and mate mapped
+3996029 + 0 singletons (8.84%:-nan%)
+112684 + 0 with mate mapped to a different chr
+101849 + 0 with mate mapped to a different chr (mapQ>=5)
+
+line 6i paired
+genic
+44354657 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+44354657 + 0 mapped (100.00%:-nan%)
+44354657 + 0 paired in sequencing
+22695212 + 0 read1
+21659445 + 0 read2
+27769737 + 0 properly paired (62.61%:-nan%)
+39791704 + 0 with itself and mate mapped
+4562953 + 0 singletons (10.29%:-nan%)
+122261 + 0 with mate mapped to a different chr
+95318 + 0 with mate mapped to a different chr (mapQ>=5)
+
+exonic
+41550112 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+41550112 + 0 mapped (100.00%:-nan%)
+41550112 + 0 paired in sequencing
+21258536 + 0 read1
+20291576 + 0 read2
+26070365 + 0 properly paired (62.74%:-nan%)
+37318304 + 0 with itself and mate mapped
+4231808 + 0 singletons (10.18%:-nan%)
+95399 + 0 with mate mapped to a different chr
+86804 + 0 with mate mapped to a different chr (mapQ>=5)
+
+line 7i paired
+genic
+54844803 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+54844803 + 0 mapped (100.00%:-nan%)
+54844803 + 0 paired in sequencing
+27501695 + 0 read1
+27343108 + 0 read2
+36063851 + 0 properly paired (65.76%:-nan%)
+50454126 + 0 with itself and mate mapped
+4390677 + 0 singletons (8.01%:-nan%)
+111850 + 0 with mate mapped to a different chr
+82508 + 0 with mate mapped to a different chr (mapQ>=5)
+
+exonic
+52502147 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+52502147 + 0 mapped (100.00%:-nan%)
+52502147 + 0 paired in sequencing
+26327529 + 0 read1
+26174618 + 0 read2
+34572190 + 0 properly paired (65.85%:-nan%)
+48345465 + 0 with itself and mate mapped
+4156682 + 0 singletons (7.92%:-nan%)
+85799 + 0 with mate mapped to a different chr
+75778 + 0 with mate mapped to a different chr (mapQ>=5)
+
+
+line 6u single
+genic
+18135017 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+18135017 + 0 mapped (100.00%:-nan%)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (-nan%:-nan%)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (-nan%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+exonic
+17107144 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+17107144 + 0 mapped (100.00%:-nan%)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (-nan%:-nan%)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (-nan%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+line6i single
+
+genic
+16507220 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+16507220 + 0 mapped (100.00%:-nan%)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (-nan%:-nan%)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (-nan%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+exonic
+15478158 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+15478158 + 0 mapped (100.00%:-nan%)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (-nan%:-nan%)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (-nan%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+line7u single
+genic
+16807278 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+16807278 + 0 mapped (100.00%:-nan%)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (-nan%:-nan%)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (-nan%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+exonic
+15869625 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+15869625 + 0 mapped (100.00%:-nan%)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (-nan%:-nan%)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (-nan%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+line7i single
+genic
+18710859 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+18710859 + 0 mapped (100.00%:-nan%)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (-nan%:-nan%)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (-nan%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+exonic
+17747883 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+17747883 + 0 mapped (100.00%:-nan%)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (-nan%:-nan%)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (-nan%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
