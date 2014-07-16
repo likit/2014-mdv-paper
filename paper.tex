@@ -121,38 +121,39 @@ genetic resistance.
 
 Many studies have reported strong associations between MHC alleles and
 resistance or susceptibility to MD.  For example, chickens with MHC allele
-B$^{21}$ are highly resistant in contrast to chickens with B$^{16}$ allele which
-are highly susceptible.  ADOL lines 6 and 7, both share (B$^{2}$) allele, yet
-exhibit different phenotypic responses to MD; e.g., challenge with JM/102W
-strain with result in 0 and 100\% MD incidence for lines 6 and 7, respectively.
-Thus, the major unanswered questions are what genetic factors, especially those
-that are non-MHC, contribute to susceptibility and resistance of the disease and
-what is the main contributing mechanism.
+B\textsuperscript{21} are highly resistant in contrast to chickens with
+B\textsuperscript{19} allele which are highly susceptible.  ADOL lines 6 and 7,
+both share (B\textsuperscript{2}) allele, yet exhibit different phenotypic
+responses to MD; e.g., challenge with JM/102W strain with result in 0 and 100\%
+MD incidence for lines 6 and 7, respectively.  Thus, the major unanswered
+questions are what genetic factors, especially those that are non-MHC,
+contribute to susceptibility and resistance of the disease and what is the main
+contributing mechanism.
 
 In the past decades, significant efforts have been spent to study variations in
 a global gene expression between resistant and susceptible birds using
 microarray and RNA-Seq methods in order to identify non-MHC genes that
-contribute to resistance to MD~\cite{}.  However, none of the studies have
-investigated differential expression of alternative isoforms, which are known to
-play a significant role in many biological events including immune responses.
-In addition, studies have shown that isoform expression levels can provide
-better signatures for some diseases~\cite{zhang2013isoform}.  Changes of isoform
-expression levels are governed partly by two types of {\em cis-}regulatory
-elements: Exon Splicing Enhancer (ESE) and Exon Splicing Silencer (ESS), which
-are located within an exon sequence.  A number of sequence motifs of ESE and ESS
-have been identified in human and some other organisms and could be predicted
-{\em in silico}.  Mutations that disrupt or create those motifs could alter
-splicing patterns leading to aberrant alternative splicing.  A number of
-disease-associated single-nucleotide polymorphsims in coding regions (cSNPs)
-that affect ESEs and ESSs have been well characterized~\cite{blencowe2000exonic,
-wang2007splicing}.
+contribute to resistance to
+MD~\cite{sarson2008transcriptional,morgan2001induction,vallejo1998genetic,yonash1999high,bumstead1998genomic}.
+However, none of the studies have investigated differential expression of
+alternative isoforms, which are known to play a significant role in many
+biological events including immune responses.  In addition, studies have shown
+that isoform expression levels can provide better signatures for some
+diseases~\cite{zhang2013isoform}.  Changes of isoform expression levels are
+governed partly by two types of {\em cis-}regulatory elements: Exon Splicing
+Enhancer (ESE) and Exon Splicing Silencer (ESS), which are located within an
+exon sequence.  A number of sequence motifs of ESE and ESS have been identified
+in human and some other organisms and could be predicted {\em in silico}.
+Mutations that disrupt or create those motifs could alter splicing patterns
+leading to aberrant alternative splicing.  A number of disease-associated
+single-nucleotide polymorphsims in coding regions (SNPs) that affect ESEs and
+ESSs have been well characterized~\cite{blencowe2000exonic, wang2007splicing}.
 %In fact, 15\% of mutations that cause genetic diseases affect pre-mRNA splicing
 %via this mechanism.
 Therefore, variations in isoform expression could lead to identification of SNPs
 that underlie genetic resistance to MD.  In this article, we reported
 differential-expressed genes and isoforms that may contribute to resistance to
-MD as well as cSNPs that can potentially affect isoform expression levels.
-
+MD as well as SNPs that can potentially affect isoform expression levels.
 
 % Results and Discussion can be combined.
 \section*{Results and Discussion}
@@ -198,8 +199,8 @@ cytokine auto-regulates the expression of {\em CD40}, which is a transmembrane
 receptor required for activation of macrophages by CD4 T cells.  Consequently,
 {\em CD40} was only upregulated in line 7 (data not shown).
 
-\subsection*{Differential expression suggests inactive adaptive immune responses
-in line 6}
+\subsection*{Differential gene expression indicates active immune responses to
+ongoing lytic infection in line 7}
 
 Many genes were found to be differentially expressed (DE) between control and
 infected chickens in lines 6 and line 7.  While the number of unique
@@ -228,8 +229,8 @@ However, expressions of genes encoding their corresponding receptors were not
 different in line 6, but upregulated in line 7.  This could also reflect the
 ongoing immune responses in line 7.
 
-
-\subsection*{Functional analysis of differential-expressed genes}
+\subsection*{Functional analysis of differential-expressed genes indicates
+inactive adaptive immune responses in line 6}
 
 To determine pathways that were perturbed during the infection, data were
 analyzed by GOSeq, which accounted for gene lengths bias unique for RNA-Seq
@@ -260,11 +261,12 @@ expansion of activated T cells.  Due to cell-associate nature of MDV, the
 viruses transfer to T cells via cell-to-cell contact between B cells and T cells
 during antigen presentation or B cells activation by T helper cells.  Therefore,
 it is beneficial for the host to restrain such contact.  However, it is not
-clear how chickens in line 6 control the lytic infection of MDV.
-% Two mechanisms have been speculated to contribute to MD resistance.
-% First innate immune responses could be highly effective and could activate
-% strong adaptive immune responses that rapidly control viral replication and force the viruses to undergo latent phase.
-% Second, innate immune resposnes itself could be highly effective in limiting viral replication~\cite{smith2011systems}.
+clear how chickens in line 6 control the lytic infection of MDV.  Two mechanisms
+have been speculated to contribute to MD resistance.  First innate immune
+responses could be highly effective and could activate strong adaptive immune
+responses that rapidly control viral replication and force the viruses to
+undergo latent phase.  Second, innate immune resposnes itself could be highly
+effective in limiting viral replication~\cite{smith2011systems}.
 
 \subsection*{Genes with differential exon usage (DEU) in response to MDV
 infection can be divided into four groups based on their patterns of expression}
@@ -363,7 +365,8 @@ group.  {\em PPP1R12A} is a myosin phosphatase that regulates the interaction of
 actin and myosin downstream of GTPase Rho proteins.  {\em PODXL} encodes
 PODX-like protein that functions in integrin-dependent manner as both
 pro-adhesive and anti-adhesive molecules.  This protein is involved in
-cell-to-cell contact, cell trafficking, and cancer progression~\cite{}.
+cell-to-cell contact, cell trafficking, and cancer
+progression~\cite{nielsen2009role,somasiri2004overexpression}.
 
 The last group (Group IV, Table~\ref{tab:line67i_diff_line67u_three}) only has
 one gene, {\em GOSR1}.  The $\Psi$ value of this gene was less than 0.20 cutoff
@@ -373,24 +376,38 @@ difference between control and infected chickens in line 7.  This gene encodes a
 trafficking membrane protein important for transporting proteins from {\em cis-}
 to {\em trans-}golgi network.
 
-\subsubsection*{Roles of {\em LFA-1} and actin cytoskeleton pathway in T cells
+\subsection*{Roles of {\em LFA-1} and actin cytoskeleton in T cells
 activation}
 
-Integrins are a special kind of receptors that transmit signals bidirectionally
-across the cell membrane.  They are heterodimeric composed of an $\alpha$
-(large) and a $\beta$ (small) subunits~\cite{wang2010immunopathologies}.
-$\beta_{2}$ (CD18) subunit encoded by {\em ITGB2} is expressed on lymphocytes
-and antigen presenting cells (APCs) as a component of {\em LFA-1} and {\em CR3}
-receptors.  LFA-1 binds to its ligand ICAM-1 to help form a synapse that bring
-APC and T cell together to initiate antigen presentation leading to T cell
-activation~\cite{dustin2000immunological}.  Absence of LFA-1 leads to impaired
-functions of lymphocytes in proliferation and tumor
-rejection~\cite{scharffetter1998spontaneous,schmits1996lfa}.  Mutations in {\em
-ITGB2} gene has been associated with type 1 leukocyte adhesion deficiency
+By grouping genes based on patterns of $\Psi$s, we found that many genes in
+group II: {\em ITGB2, PFN2, DYNLL2, DYNLT1, SEPT11}, and {\em ZDHHC7}, are
+involved in cytokinesis or cell synapse, which are important for T cell
+activation.  As described above, {\em ITGB2} encodes $\beta$-subunit of
+integrins including LFA-1, which exclusively expressed in lymphocytes and plays
+a major role in lymphoproliferation, antigen presentation, T cells activation,
+and cytotoxicity.  Integrins are a special kind of receptors that transmit
+signals bidirectionally across the cell membrane.  They are heterodimeric
+composed of an $\alpha$ (large) and a $\beta$ (small)
+subunits~\cite{wang2010immunopathologies}.  $\beta_{2}$ (CD18) subunit encoded
+by {\em ITGB2} is expressed on lymphocytes and antigen presenting cells (APCs)
+as a component of {\em LFA-1} and {\em CR3} receptors.  LFA-1 binds to its
+ligand ICAM-1 to help form a synapse that bring APC and T cell together to
+initiate antigen presentation leading to T cell
+activation~\cite{dustin2000immunological}.
+
+Absence of LFA-1 leads to impaired functions of lymphocytes in proliferation and
+tumor rejection~\cite{scharffetter1998spontaneous,schmits1996lfa}.  Mutations in
+{\em ITGB2} gene has been associated with type 1 leukocyte adhesion deficiency
 (LAD-1), an autosomal-recessive inherited disease found in few families.  The
 disease is characterized by impair of lymphocytes in adherent-dependent
 functions, lack of accumulation to the site of infection and recurrent bacterial
-and fungal infection~\cite{springer1987lymphocyte}.
+and fungal infection~\cite{springer1987lymphocyte}.  In addition, the response
+of lymphocytes to mitogens is decreased in patients with
+LAD~\cite{springer1987lymphocyte}.  The decrease in responsiveness to mitogens
+have been shown to correlate with resistance to MD by Lee and
+Bacon~\cite{lee1983ontogeny}, who illustrated that resistant birds (line 6 and
+N) were less responsive to phytohemagglutinin (PHA) than susceptible birds (line
+7 and P).
 
 Actin cytoskeleton is very important in T cell activation because it enhances
 activity of LFA-1 by increasing its avidity and recruiting signaling molecules
@@ -404,21 +421,36 @@ PPP1R12A}, which are involved in actin cytoskeleton pathway
 (Figure~\ref{kegg_actin}), also expressed different ratios of alternative splice
 forms between lines 6 and 7.  Some of these genes are also co-present in three
 other pathways that involved in immune responses (Table~\ref{tab:integrin}).
-This could be speculated that pre-mRNA splicing of these genes is co-regulated
+It could be speculated that pre-mRNA splicing of these genes is co-regulated
 by splicing regulators or some genetic factors.
 
-Using exon-centric approach, we identified several genes involved in actin
-cytoskeleton, especially {\em ITGB2}, that expressed different ratios of
-alternative isoforms between lines 6 and 7.  As described above, {\em ITGB2}
-encodes $\beta$-subunit of integrins including LFA-1, which exclusively
-expressed in lymphocytes and plays a major role in lymphoproliferation, antigen
-presentation, T cells activation, and cytotoxicity.  In patients with LFA-1
-deficiency (LAD), the response of lymphocytes to mitogens is
-decreased~\cite{springer1987lymphocyte}.  The decrease in responsiveness to
-mitogens have been shown to correlate with resistance to MD by Lee and
-Bacon~\cite{lee1983ontogeny}, who illustrated that resistant birds (line 6 and
-N) were less responsive to phytohemagglutinin (PHA) than susceptible birds (line
-7 and P).
+\subsection*{Prediction of functional domains of splice forms of genes in the
+actin cytoskeleton pathway}
+
+To predict the function of the alternative splice forms of genes in actin
+cytoskeleton pathway, transcript sequences were translated to protein sequences
+by ESTscan~\cite{iseli1999estscan}.  Protein sequences were then searched for
+annotated protein domains using the standalone version of InterPro
+Scan~\cite{quevillon2005interproscan}.  Besides {\em ITGB2}, other genes have
+alternative exons located in coding regions and could potentially affect
+functional protein domains in some ways.  The exon with alternative 3$\prime$
+splice site of {\em RAC3} encode part of a protein domain identified as small
+GTPase of Ras subfamily (ProSiteProfiles:PS5142 and SMART:SM00173).  Rac3 is
+highly homologous to Rac1 and has been reported to possess the ability of
+promoting membrane ruffling, transformation, activation of c-Jun transcriptional
+activity and a co-activator of NF$\kappa$B~\cite{werbajh2000rac}.  Activated Rac
+also regulates production of superoxide in neutrophils and macrophages.
+
+The alternative exon of {\em PFN2} seems to disrupt the coding sequence that
+encode profilin domain (Pfam:PF00235).  The profilin domain is essential for
+almost all organisms and its functions include regulating actin polymerization,
+controlling complex network of molecular interaction and transmitting signals
+from small-GTPase pathway.  It also binds to Rac effector molecules and a number
+of other ligands~\cite{witke2004role}.  The skipped exon of {\em PPP1R12A}
+encodes part of a protein domain annotated as protein phosphatase 1
+(PIRSF:PIRSF038141).  The functional effects of alternative splicing on these
+functional domains have to be further investigated by simulation or an
+experiment.
 
 Even though the exact mechanism is not known, incompetency of T cells in
 response to stimuli appears to benefit resistant birds because MD virus could
@@ -432,65 +464,24 @@ in line 6.  Although the exon included in the alternative splice form is
 non-coding, it could serve important functions in translation or
 posttranscriptional regulation.
 
-Interestingly, by grouping genes based on patterns of $\Psi$s, we found that
-many genes in group II: {\em ITGB2, PFN2, DYNLL2, DYNLT1, SEPT11}, and {\em
-ZDHHC7}, are involved in cytokinesis or cell synapse, which are important for
-aggregation of LFA-1 and T cell activation as discussed above.  The $\Psi$
-values in group II are more similar within line than between lines in both
-control and infected groups, suggesting the possibility that the alternative
-splicing is controlled by a genetic mechanism.  Based on the independent
-criteria, enrichment of cytoskeletal genes in this group could not be just a
-mere coincidence, but an evidence suggesting that inefficiency of T cell
-activation in line 6 is linked to a genetic factor that regulate alternative
-splicing of {\em ITGB2} and other genes in the cytoskeleton system.
-Experimental validation of exonic SNPs provided by this study could shed some
-lights on underlying polymorphisms that contribute to MD resistance.
-
-
-\subsubsection*{Protein domains}
-
-To understand the role of the alternative splice forms on the function of these
-genes, transcripts were translated to protein sequences by
-ESTscan~\cite{iseli1999estscan}.  Protein sequences were then searched for
-annotated protein domains using the standalone version of InterPro
-Scan~\cite{quevillon2005interproscan}.  Besides {\em ITGB2}, other genes have
-alternative exons located in coding regions and could potentially affect
-functional protein domains in some ways.  The exon with alternative 3$\prime$
-splice site of {\em RAC3} encode part of a protein domain identified as small
-GTPase of Ras subfamily (ProSiteProfiles:PS5142 and SMART:SM00173).  Rac3 is
-highly homologous to Rac1 and has been reported to possess the ability of
-promoting membrane ruffling, transformation, activation of c-Jun transcriptional
-activity and a co-activator of NF$\kappa$B~\cite{,werbajh2000rac}.  Activated
-Rac also regulates production of superoxide in neutrophils and macrophages.
-
-The alternative exon of {\em PFN2} seems to disrupt the coding sequence that
-encode profilin domain (Pfam:PF00235).  The profilin domain is essential for
-almost all organisms and its functions include regulating actin polymerization,
-controlling complex network of molecular interaction and transmitting signals
-from small-GTPase pathway.  It also binds to Rac effector molecules and a number
-of other ligands~\cite{witke2004role}.  The skipped exon of {\em PPP1R12A}
-encodes part of a protein domain annotated as protein phosphatase 1
-(PIRSF:PIRSF038141).  The functional effects of alternative splicing on these
-functional domains have to be further investigated by simulation or an
-experiment.
 
 % Based on our gene model, the skipped exon of \textit{ITGB2} is located in the
 % 5$\prime$ UTR; whereas, the skipped exon of \textit{HCK}, encodes protein
 % tyrosine kinase (Pfam:PF07714).
 
-\subsubsection*{Prediction of {\em cis}-regulatory elements in alternative
-splicing exons}
+\subsection*{Prediction of {\em cis}-regulatory elements in alternative
+splicing exons of genes in group II}
 
 Although alternative splicing of genes in all groups could be regulated by {\em
 cis-} and {\em trans-}splicing factors, genes in group II are more likely to be
 regulated by {\em cis-}regulatory factors.  The ratios of isoform expression in
 this group were relatively stable within line, but were significantly different
-between lines.  Investigation of nucleotide differences within exons of line 6
-and 7 could reveal a possible role of cSNPs in regulating alternative splicing
-in this group.  We obtained a sequence of an alternative exon from line 6 and
-used Human Splicing Finder (HSF) to determine whether SNPs from line 7 could
-alter predicted ESEs or ESSs.  Results from some genes involved in cytokinesis
-are discussed in this section.  Exonic SNPs from line 6 and 7 are listed in
+between lines.  Investigation of nucleotide differences within exons of lines 6
+and 7 could reveal a possible role of SNPs in regulating alternative splicing in
+this group.  We obtained a sequence of an alternative exon from line 6 and used
+Human Splicing Finder (HSF) to determine whether SNPs from line 7 could alter
+predicted ESEs or ESSs.  Results from some genes involved in cytokinesis are
+discussed in this section.  Exonic SNPs from line 6 and 7 are listed in
 Table~\ref{tab:deu_snps}.
 
 For {\em ITGB2}, a SNP (T) at position 26 of the cDNA from line 6, which
@@ -498,10 +489,9 @@ corresponds to position 7,183,696 on chromosome 7 is located in a predicted
 binding site for SC35, which is an exon enhancer.  Although the exon is not
 expressed in line 7, we found that there is no polymorphisms between lines 6 and
 7 according to SNPs data from the genome resequencing.  Therefore, this SNP may
-not be accounted for exclusion of the exon in line 7 (Figure~\ref{itgb2}).
-
-Exon sequences of {\em PFN2} from line 6 and 7 differ at position 2,072 on cDNA
-or 23,221,934 on chromosome 9.  A small insertion of two AA nucleotides is
+not be accounted for exclusion of the exon in line 7 (Figure~\ref{itgb2}).  Exon
+sequences of {\em PFN2} from line 6 and 7 differ at position 2,072 on cDNA or
+23,221,934 on chromosome 9.  A small insertion of two AA nucleotides is
 predicted to create a new binding site for Tra2-$\beta$ splicing regulator,
 which serves as a stabilizer of an enhancer complex~\cite{lopez1998alternative}.
 From exon expression data, $\Psi$ of an exon with alternative splicing increases
@@ -520,20 +510,20 @@ helps support the expression results.  In addition, A nucleotide is this
 position matches the reference nucleotide, therefore, we could expect this exon
 to be expressed in other datasets.  According to EST tags on the UCSC genome
 browser, the exon has been found and sequenced from chicken eyes (15d
-post-hatched, EST sequence:DR424100).
-
-For {\em DYNLT1}, the skipped exon was absent in line 7, therefore, we could not
-determine the SNPs from RNA-Seq data.  However, data from DNA resequencing
-showed that there was a polymorphism at position 51,357,865 on chromosome 3.
-Replacing G with C from line 7 is predicted to slightly alter predicted binding
-sites for 9G8 as well as SRp55 exon enhancer.  However, whether the alteration
-down regulates the exon in line 7 is unclear.
+post-hatched, EST sequence:DR424100).  For {\em DYNLT1}, the skipped exon was
+absent in line 7, therefore, we could not determine the SNPs from RNA-Seq data.
+However, data from DNA resequencing showed that there was a polymorphism at
+position 51,357,865 on chromosome 3.  Replacing G with C from line 7 is
+predicted to slightly alter predicted binding sites for 9G8 as well as SRp55
+exon enhancer.  However, whether the alteration down regulates the exon in line
+7 is unclear.
 
 There are too many SNPs in the exon of {\em SEPT11} and {\em ZDHHC7}, making it
 unfeasible to predict which SNP regulates the exon expression.  Therefore, we do
 not discuss these two genes in this section.  However, results from HSF analysis
 of these two genes and other genes in this group are provided in the
-supplementary materials.
+supplementary materials.  Experimental validation of exonic SNPs provided by
+this study could shed some lights on underlying polymorphisms that contribute to
 
 \section*{Conclusion}
 
@@ -562,32 +552,38 @@ unannotated gene and isoform expression, our approach of constructing gene
 models from RNA-Seq should be iteratively used to extend the ENSEMBL gene models
 to construct more complete gene models.
 
-% However, to mechanism that contribute to resistance to MD could be very
-% complex and integration of global gene expression data as well as experimental
-% data from different stages of infection will be required to fully elucidate.
-% Moreover, better gene models and a reference genome will be necessary.
-
 % You may title this section "Methods" or "Models". 
 % "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
-% authors may use "Analysis" 
-\section*{Materials and Methods}
-\subsection{Gene Models Construction}
+% authors may use "Analysis"
+\section*{Materials and methods}
+
+\subsection{Sequences and quality trimming}
+
+mRNAs were extracted from spleens of control and infected chickens lines 6 and 7
+(4 d.p.i).  Sequence libraries were prepared by standard Illumina unstranded
+single- and paired-end protocols.  Library size of the paired-end datasets is
+approximately 175 bp.  Read lengths are 75 bp in both single- and paired-end
+libraries.  Reads were quality trimmed by Condetri 2.1~\cite{smeds2011condetri}
+with quality score cutoff of 30.  The first 10 bases were removed due to
+non-uniform distribution of nucleotides.
+
+\subsection*{Gene models construction}
 
 Due to lack of complete gene models for chickens, we employed two methods to
-construct gene models from RNA-Seq reads.  First, short reads were quality
-trimmed with conditri/2.1~\cite{} and assembled using Velvet/1.21~\cite{} and
-Oases/0.2.06~\cite{} to obtain long transcripts.  Assembly was done with hash
-lengths range from 21 to 31 for both local and global assembly (described in
-Gimme paper).  Poly-A tails were trimmed and low complexity transcripts were
-removed by Seqclean~\cite{}.  All transcripts were then aligned to chicken
+construct gene models from RNA-Seq reads.  First, short reads were assembled
+using Velvet/1.2.03~\cite{Zerbino:2008vu} and Oases/0.2.06~\cite{Schulz:2012je}
+to obtain long transcripts.  Assembly was done with hash lengths range from 21
+to 31 for both local and global assembly (described in Gimme paper).  Poly-A
+tails were trimmed and low complexity transcripts were removed by
+Seqclean~\cite{seqclean}.  All transcripts were then aligned to chicken
 reference genome (galGal4, with unplaced and random chromosomes removed) with
-BLAT~\cite{}.  Second, reads were aligned to reference genome using
-Tophat/2.0.5~\cite{} and ENSEMBLE gene models release 73 was used to guide
-reference-based assembly by Cufflinks2~\cite{}.  Alignments from BLAT and models
-from Cufflinks were then combined to construct gene models by Gimme (manuscript
-in preparation).
+BLAT~\cite{Kent:2002tv}.  Second, reads were aligned to reference genome using
+Tophat/2.0.9~\cite{Trapnell:2009dp} and ENSEMBLE gene models release 73 was used
+to guide reference-based assembly by Cufflinks2~\cite{Trapnell:2010kd}.
+Alignments from BLAT and models from Cufflinks were then combined to construct
+gene models by Gimme (manuscript in preparation).
 
-\subsection{Differential Gene Expression and Gene Ontology}
+\subsection*{Differential gene expression and gene ontology}
 
 To identify DE genes, reads were mapped to transcripts by RSEM
 v.1.10.1~\cite{li2011rsem}, which is also used to estimate genes expression and
@@ -600,7 +596,7 @@ $<0.1$ were considered significant.  Pathview~\cite{luo2013pathview} was used to
 create a KEGG pathway diagram with colors representing relative level of gene
 expressions.
 
-\subsection{Differential Splicing Event}
+\subsection*{Differential splicing event}
 
 Gene models were converted to alternative splicing models using a Python script.
 In order to increase sensitivity, read counts from single- and paired-end
@@ -609,20 +605,22 @@ analysis with MISO/0.4.9~\cite{Katz:2010iv}.  Splicing events with Bayes factor
 $>10$ and $\Delta\Psi>0.20$ were considered significant.  Read coverages and
 $\Psi$ distributions were plotted using Sashimi plot~\cite{Katz:2013vx}.
 
-\subsection{Variant Calling and {\em In Silico} Splicing Analysis} Variants were
-called using mpileup command from SAMTools/0.1.18~\cite{} and BCFTools~\cite{}.
-Only variants with quality score $\ge20$ were used for mutation analyses.  Exon
-enhancers and suppressors were predicted using Human Splicing Finder web
-portal~\cite{}.  Human default parameter settings were used in all analyses.
-The following regulatory sequences were used to determined the effect of
-variants: HSF integrated matrices for serine/arginine-rich proteins (SRp40,
-SC35, SF2/ASF, SF2/ASF, IgM/BRCA1, and SRp55), exonic splicing enhancer (ESE),
-RESCUE-ESE hexamer (RESCUE-ESE), putative 8-mer ESEs (PESEs) and putative 8-mers
-exonic splicing silencers (PESSs), exon-identity and intron-identiry elements
-(EIEs and IIEs), hetronuclear ribonucleoprotein-binding motifs, and Fas exonic
-splicing silencers.
+\subsection*{Variant calling and {\em in silico} splicing analysis}
 
-\subsection{Protein domains search}
+Variants were called using mpileup command from
+SAMTools/0.1.18~\cite{li2009sequence} and BCFTools~\cite{bcftools}.  Only
+variants with quality score $\ge20$ were used for mutation analyses.  Exon
+enhancers and suppressors were predicted using Human Splicing Finder web
+portal~\cite{desmet2009human}.  Human default parameter settings were used in
+all analyses.  The following regulatory sequences were used to determined the
+effect of variants: HSF integrated matrices for serine/arginine-rich proteins
+(SRp40, SC35, SF2/ASF, SF2/ASF, IgM/BRCA1, and SRp55), exonic splicing enhancer
+(ESE), RESCUE-ESE hexamer (RESCUE-ESE), putative 8-mer ESEs (PESEs) and putative
+8-mers exonic splicing silencers (PESSs), exon-identity and intron-identiry
+elements (EIEs and IIEs), hetronuclear ribonucleoprotein-binding motifs, and Fas
+exonic splicing silencers.
+
+\subsection*{Protein domains search}
 
 % Do NOT remove this, even if you are not including acknowledgments
 \section*{Acknowledgments}
