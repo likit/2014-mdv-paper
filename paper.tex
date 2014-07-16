@@ -155,23 +155,57 @@ MD as well as cSNPs that can potentially affect isoform expression levels.
 
 
 % Results and Discussion can be combined.
-\section*{Results}
+\section*{Results and Discussion}
 
-\subsection*{Differential gene expression in response to MDV infection}
+\subsection*{Differential expression results from our method are comparable to
+previous studies}
 
 To extensively study gene and isoform expression, we incorporated ENSEMBL gene
 models release 73 with {\em de novo} and a reference-guided transcriptome
 assembly to build custom gene models.  The models, therefore, include both
-ENSEMBL annotated transcripts and putative transcripts and genes.  The advantage
-of using custom gene models is it allows an investigation of unannotated genes
-and isoforms, which is necessary for in-depth transcriptome study of an immune
-system.
+ENSEMBL annotated transcripts and putative genes and isoforms.  The advantage of
+using custom gene models is it allows an investigation of unannotated genes and
+isoforms, which is necessary for in-depth study of an immune system.
+
+Some DE genes have been reported from previous microarray studies were also
+found to be differentially expressed in this study.  For example, B6.1 (Bu-1)
+gene is known to be down-regulated approximately 2.27 fold in susceptible
+chicken with the MHC allele B\textsuperscript{19} at 4
+d.p.i~\cite{sarson2008transcriptional}.  It was also found to be down-regulated
+about 3-fold in line 7 (susceptible).  Similarly, {\em GMZA} gene reported to be
+upregulated across genetically different chickens (B\textsuperscript{19},
+B\textsuperscript{21} alleles),
+was also found to be highly upregulated.  In contrast, some genes that have been
+reported to be highly expressed in resistant chickens were downregulated in both
+lines. Those genes are {\em AMIGO2, MMP13} and {\em CLEC3B}, which were found to
+be downregulated more than 2-fold~\cite{sarson2008transcriptional}.
+% Several genes involved in innate immune response were differentially expressed
+% in resistant chickens: \textit{DDT, NMU, VIPR2} and \textit{HSP5}. Of all
+% those genes, only HSP5 was upregulated.
+Other immune genes reported to be highly expressed in susceptible chickens (line
+7) including {\em AVD, ART1, NOS2, CXCL13L2, MX1} and {\em
+SOCS1}~\cite{smith2011systems} were also found to be highly upregulated in both
+line 6 and 7.  However, our results show the similar expression patterns for
+{\em IL6} and {\em IL18}, which were only upregulated in line 7 in early stage
+of infection ($3-5$ d.p.i).
+
+In contrast, {\em IL15} has been reported non differential-expressed between
+control and infected chickens in line 6 and 7~\cite{kaiser2003differential};
+however, it was only upregulated in line 7 in our study.  Expression of {\em
+IL15} is induced by {\em TLR9}, which binds to non-methylated CpG residues
+present in genomes of many DNA viruses, including herpes simplex virus.  This
+cytokine auto-regulates the expression of {\em CD40}, which is a transmembrane
+receptor required for activation of macrophages by CD4 T cells.  Consequently,
+{\em CD40} was only upregulated in line 7 (data not shown).
+
+\subsection*{Differential expression suggests inactive adaptive immune responses
+in line 6}
 
 Many genes were found to be differentially expressed (DE) between control and
 infected chickens in lines 6 and line 7.  While the number of unique
 downregulated genes in both lines was approximately equal, the number of unique
 upregulated genes in line 7 was much greater compared to line 6
-(Figure~\ref{degenes_venn})~\cite{lee1983ontogeny}.  Interestingly, some genes
+(Figure~\ref{degenes_venn}).  Interestingly, some genes
 that were differentially expressed in both lines were regulated in the opposite
 direction (Table~\ref{tab:opposite}).  Among genes downregulated in line 6 but
 upregulated in line 7 were {\em LL} (lung lectin) and {\em SFTPA1}, which encode
@@ -194,37 +228,6 @@ However, expressions of genes encoding their corresponding receptors were not
 different in line 6, but upregulated in line 7.  This could also reflect the
 ongoing immune responses in line 7.
 
-Some DE genes have been reported from previous microarray studies were also
-found to be differentially expressed in this study.  For example, B6.1 (Bu-1)
-gene is known to be down-regulated approximately 2.27 fold in susceptible
-chicken with the MHC allele B\textsuperscript{19} at 4
-d.p.i~\cite{sarson2008transcriptional}.  It was also found to be down-regulated
-about 3-fold in line 7 (susceptible).  Similarly, {\em GMZA} gene reported to be
-upregulated across genetically different chickens (B$^{19}$, B$^{21}$ alleles),
-was also found to be highly upregulated.  In contrast, some genes that have been
-reported to be highly expressed in resistant chickens were downregulated in both
-lines. Those genes are {\em AMIGO2, MMP13} and {\em CLEC3B}, which were found to
-be downregulated more than 2-fold~\cite{sarson2008transcriptional}.
-% Several genes involved in innate immune response were differentially expressed
-% in resistant chickens: \textit{DDT, NMU, VIPR2} and \textit{HSP5}. Of all
-% those genes, only HSP5 was upregulated.
-Other immune genes reported to be highly expressed in susceptible chickens (line
-7$_{2}$) including {\em AVD, ART1, NOS2, CXCL13L2, MX1} and {\em
-SOCS1}~\cite{smith2011systems} were also found to be highly upregulated in both
-line 6 and 7.  However, our results show the similar expression patterns for
-{\em IL6} and {\em IL18}, which were only upregulated in line 7 in early stage
-of infection (3-5 d.p.i).
-
-In contrast, {\em IL15} has been reported non differential-expressed between
-control and infected chickens in line 6$_{1}$ and
-7$_{2}$~\cite{kaiser2003differential}; however, it was only upregulated in line
-7 in our study.  Expression of {\em IL15} is induced by {\em TLR9}, which binds
-to non-methylated CpG residues present in genomes of many DNA viruses, including
-herpes simplex virus.  This cytokine auto-regulates the expression of {\em
-CD40}, which is a transmembrane receptor required for activation of macrophages
-by CD4 T cells.  Consequently, {\em CD40} was only upregulated in line 7 (data
-not shown).
-
 
 \subsection*{Functional analysis of differential-expressed genes}
 
@@ -233,22 +236,21 @@ analyzed by GOSeq, which accounted for gene lengths bias unique for RNA-Seq
 data~\cite{young2010method}.  Significantly perturbed pathways (FDR $< 0.1$)
 from both lines that involved in immune response include TLR signaling pathway,
 cytokine-cytokine receptor interaction, intestinal immune network for IgA
-production, and cell adhesion molecules (CAMs)~\ref{line67_kegg}.  Some other
-pathways important in response to viral infection and only significantly
+production, and cell adhesion molecules (CAMs)(figure~\ref{line67_kegg}).  Some
+other pathways important in response to viral infection and only significantly
 enriched in line 7 include phagosome, apoptosis, RIG-I-like receptor signaling
 pathway, NOD-like receptor signaling pathway, and lysosome.
 Figure~\ref{kegg_phagosome} is a pictorial example of differentially expressed
 genes in the phagosome pathway.  Although MHC I gene ({\em BF1}) was
 differentially expressed in both lines, other genes involved in expressing newly
 synthesized MHC I were only upregulated in line 7 suggesting that new MHC I
-molecules were actively produced and expressed on cell surface.
-% (the minor class I is upregulated but the major class I is downregulated)
-Furthermore, gene ontology analysis of biological processes (GO:BP) shows that
-categories involved in both adaptive and innate immune responses were enriched
-in line 7 (supplementary material).  On the other hand, only categories involved
-in innate immune responses were enriched in line 6.  In addition, enrichment of
-apoptosis pathway in line 7 indicates that the programmed cell death could be
-induced by CTL response to eliminate the viruses.
+molecules were actively produced.  Furthermore, gene ontology analysis of
+biological processes (GO:BP) shows that categories involved in both adaptive and
+innate immune responses were enriched in line 7 (supplementary material).  On
+the other hand, only categories involved in innate immune responses were
+enriched in line 6.  In addition, enrichment of apoptosis pathway in line 7
+indicates that the programmed cell death could be induced by CTL response to
+eliminate the viruses.
 
 At this stage of infection, our results suggest that lytic infection of MDV
 stimulates both innate and adaptive immune responses, which leads to activation
@@ -264,7 +266,8 @@ clear how chickens in line 6 control the lytic infection of MDV.
 % strong adaptive immune responses that rapidly control viral replication and force the viruses to undergo latent phase.
 % Second, innate immune resposnes itself could be highly effective in limiting viral replication~\cite{smith2011systems}.
 
-\subsection*{Differential exon usage (DEU)}
+\subsection*{Genes with differential exon usage (DEU) in response to MDV
+infection can be divided into four groups based on their patterns of expression}
 
 The immune system is isoform-rich and many genes express different isoforms with
 distinctive functions in response to stimuli such as stress, chemicals and
@@ -299,9 +302,6 @@ to infer the portion of transcripts that include the exon in each
 sample~\cite{Katz:2010iv}.  In this study, we investigated the three most common
 alternative splicing events in vertebrates, which are skipped exons (SE), an
 alternative $3\prime$ (A3SS) and $5\prime$ (A5SS) splice site.
-
-\subsubsection*{DEU genes in response to MDV}
-
 Lists of DEU genes from line 6 that show difference in $\Psi$ greater than 0.20
 when compared to line 7 in infected chickens are shown in
 Tables~\ref{tab:line67i_diff_line67u_one},~\ref{tab:line67i_diff_line67u_two}
@@ -373,7 +373,8 @@ difference between control and infected chickens in line 7.  This gene encodes a
 trafficking membrane protein important for transporting proteins from {\em cis-}
 to {\em trans-}golgi network.
 
-\subsubsection*{Roles of {\em LFA-1} and actin cytoskeleton pathway in T cells activation}
+\subsubsection*{Roles of {\em LFA-1} and actin cytoskeleton pathway in T cells
+activation}
 
 Integrins are a special kind of receptors that transmit signals bidirectionally
 across the cell membrane.  They are heterodimeric composed of an $\alpha$
@@ -406,6 +407,46 @@ other pathways that involved in immune responses (Table~\ref{tab:integrin}).
 This could be speculated that pre-mRNA splicing of these genes is co-regulated
 by splicing regulators or some genetic factors.
 
+Using exon-centric approach, we identified several genes involved in actin
+cytoskeleton, especially {\em ITGB2}, that expressed different ratios of
+alternative isoforms between lines 6 and 7.  As described above, {\em ITGB2}
+encodes $\beta$-subunit of integrins including LFA-1, which exclusively
+expressed in lymphocytes and plays a major role in lymphoproliferation, antigen
+presentation, T cells activation, and cytotoxicity.  In patients with LFA-1
+deficiency (LAD), the response of lymphocytes to mitogens is
+decreased~\cite{springer1987lymphocyte}.  The decrease in responsiveness to
+mitogens have been shown to correlate with resistance to MD by Lee and
+Bacon~\cite{lee1983ontogeny}, who illustrated that resistant birds (line 6 and
+N) were less responsive to phytohemagglutinin (PHA) than susceptible birds (line
+7 and P).
+
+Even though the exact mechanism is not known, incompetency of T cells in
+response to stimuli appears to benefit resistant birds because MD virus could
+not induce T cells to proliferate and cause them to undergo neoplastic
+transformation.  It has also been suggested that the mechanism that controls
+both lymphocyte proliferation induced by MD virus and lymphocyte proliferation
+induced by immune response is the same~\cite{pazderka1975histocompatibility}.
+Therefore, it may be useful to consider a link between deficiency of lymphocytes
+in line 6 to the alternative splice form of {\em ITGB2} that is only expressed
+in line 6.  Although the exon included in the alternative splice form is
+non-coding, it could serve important functions in translation or
+posttranscriptional regulation.
+
+Interestingly, by grouping genes based on patterns of $\Psi$s, we found that
+many genes in group II: {\em ITGB2, PFN2, DYNLL2, DYNLT1, SEPT11}, and {\em
+ZDHHC7}, are involved in cytokinesis or cell synapse, which are important for
+aggregation of LFA-1 and T cell activation as discussed above.  The $\Psi$
+values in group II are more similar within line than between lines in both
+control and infected groups, suggesting the possibility that the alternative
+splicing is controlled by a genetic mechanism.  Based on the independent
+criteria, enrichment of cytoskeletal genes in this group could not be just a
+mere coincidence, but an evidence suggesting that inefficiency of T cell
+activation in line 6 is linked to a genetic factor that regulate alternative
+splicing of {\em ITGB2} and other genes in the cytoskeleton system.
+Experimental validation of exonic SNPs provided by this study could shed some
+lights on underlying polymorphisms that contribute to MD resistance.
+
+
 \subsubsection*{Protein domains}
 
 To understand the role of the alternative splice forms on the function of these
@@ -437,7 +478,8 @@ experiment.
 % 5$\prime$ UTR; whereas, the skipped exon of \textit{HCK}, encodes protein
 % tyrosine kinase (Pfam:PF07714).
 
-\subsubsection*{Prediction of {\em cis}-regulatory elements in alternative splicing exons}
+\subsubsection*{Prediction of {\em cis}-regulatory elements in alternative
+splicing exons}
 
 Although alternative splicing of genes in all groups could be regulated by {\em
 cis-} and {\em trans-}splicing factors, genes in group II are more likely to be
@@ -493,71 +535,32 @@ not discuss these two genes in this section.  However, results from HSF analysis
 of these two genes and other genes in this group are provided in the
 supplementary materials.
 
-\section*{Discussion}
+\section*{Conclusion}
 
 Custom gene models built from combination of gene models from {\em de novo}
-assembly, reference-based assembly, and Ensembl allowed us to identify genes and
-isoforms that might play an important role in resistance to MD.  Results from
-gene expression analysis indicate that adaptive immune responses were active
-during lytic infection in line 7.  Because only activated T cells are infected,
-elicitation of adaptive immune responses could help spread the viruses by
-recruiting and activating more T cells.  Therefore, active immune responses are
-favorable for the virus.  On the other hand, the delay of adaptive immune
-responses in line 6, in this case, could benefit the host by limiting infection
-of activated T cells.
+assembly, reference-based assembly, and ENSEMBL had allowed us to identify genes
+and isoforms that might play an important role in resistance to MD.  Results
+from gene expression analysis indicated that adaptive immune responses were
+active during lytic infection in line 7, but not in line 6.  Because only
+activated T cells are infected by MDV, we speculated that elicitation of
+adaptive immune responses could help spread the viruses by recruiting and
+activating more T cells and.  In contrast, the delay of adaptive immune
+responses could benefit the host by limiting infection of activated T cells.
 
-Using exon-centric approach, we identified several genes involved in actin
-cytoskeleton, especially {\em ITGB2}, that expressed different ratios of
-alternative isoforms between lines 6 and 7.  As described above, {\em ITGB2}
-encodes $\beta$-subunit of integrins including LFA-1, which exclusively
-expressed in lymphocytes and plays a major role in lymphoproliferation, antigen
-presentation, T cells activation, and cytotoxicity.  In patients with LFA-1
-deficiency (LAD), the response of lymphocytes to mitogens is
-decreased~\cite{springer1987lymphocyte}.  The decrease in responsiveness to
-mitogens have been shown to correlate with resistance to MD by Lee and
-Bacon~\cite{lee1983ontogeny}, who illustrated that resistant birds (line 6 and
-N) were less responsive to phytohemagglutinin (PHA) than susceptible birds (line
-7 and P).
-
-Even though the exact mechanism is not known, incompetency of T cells in
-response to stimuli appears to benefit resistant birds because MD virus could
-not induce T cells to proliferate and cause them to undergo neoplastic
-transformation.  It has also been suggested that the mechanism that controls
-both lymphocyte proliferation induced by MD virus and lymphocyte proliferation
-induced by immune response is the same~\cite{pazderka1975histocompatibility}.
-Therefore, it may be useful to consider a link between deficiency of lymphocytes
-in line 6 to the alternative splice form of {\em ITGB2} that is only expressed
-in line 6.  Although the exon included in the alternative splice form is
-non-coding, it could serve important functions in translation or
-posttranscriptional regulation.
-
-Interestingly, by grouping genes based on patterns of $\Psi$s, we found that
-many genes in group II: {\em ITGB2, PFN2, DYNLL2, DYNLT1, SEPT11}, and {\em
-ZDHHC7}, are involved in cytokinesis or cell synapse, which are important for
-aggregation of LFA-1 and T cell activation as discussed above.  The $\Psi$
-values in group II are more similar within line than between lines in both
-control and infected groups, suggesting the possibility that the alternative
-splicing is controlled by a genetic mechanism.  Based on the independent
-criteria, enrichment of cytoskeletal genes in this group could not be just a
-mere coincidence, but an evidence suggesting that inefficiency of T cell
-activation in line 6 is linked to a genetic factor that regulate alternative
-splicing of {\em ITGB2} and other genes in the cytoskeleton system.
-Experimental validation of exonic SNPs provided by this study could shed some
-lights on underlying polymorphisms that contribute to MD resistance.
-
-To conclude, we attempted to employ custom gene models built from RNA-Seq data
-to identify underlying genetic factors contributing to MD resistance.  We
-identified a number of genes that expressed different ratios of alternative
-splice forms between lines 6 and 7.  Interestingly, several genes are involved
-in actin cytoskeleton and cytokinesis, which have not been of great interest in
-the filed of MD research.  Even though we mainly discussed the possible role of
-{\em ITGB2} in MD resistance, other genes cannot be precluded and should be a
-candidate for further investigation and experimental studies.  Moreover, a full
-mechanism of MD resistance may be highly complex and require more data from
-different stages of infection as well as a greater sequencing depth in order to
-identify all genes and isoforms involved.  To enable the study of unannotated
-gene and isoform expression, our approach of constructing gene models from
-RNA-Seq should be iteratively used to extend the Ensembl gene models.
+To elucidate the molecular mechanism of MD resistance, we investigated
+differential isoforms expression between lines 6 and 7 and identified a number
+of genes that could be responsible for difference in immune responses. Notably,
+several genes are involved in actin cytoskeleton and cytokinesis, which are
+important for the functions of lymphocytes and immune cells but have not been of
+great interest in the filed of MD research.  Even though we mainly discussed the
+possible role of {\em ITGB2} in MD resistance, other genes cannot be precluded
+and should be a candidate for further investigation and experimental studies.
+Moreover, a full mechanism of MD resistance is highly complex and more data from
+different stages of infection as well as a greater sequencing depth will be
+required to identify all genes and isoforms involved.  To enable the study of
+unannotated gene and isoform expression, our approach of constructing gene
+models from RNA-Seq should be iteratively used to extend the ENSEMBL gene models
+to construct more complete gene models.
 
 % However, to mechanism that contribute to resistance to MD could be very
 % complex and integration of global gene expression data as well as experimental
